@@ -7,7 +7,7 @@ axios.defaults.headers.common['Authorization'] =
 export const fetchTrendingMovie = async () => {
   const url = 'trending/movie/day?language=en-US';
   const response = await axios.get(url);
-  return response.data;
+  return response.data.results;
 };
 
 export const fetchSearchMovie = async (query, page) => {
