@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+
+}
+
+.details {
+    padding: 10px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

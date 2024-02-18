@@ -1,0 +1,23 @@
+.form {
+    text-align: center;
+    position: fixed;
+    left: 3%;
+    top: 70px;
+    /* Вирівнюємо форму по центру */
+}
+
+.input {
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(7, 68, 70);
+    margin-right: 25px;
+    width: 300px;
+}
+
+.button {
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(22, 21, 18);
+    font-weight: 700;
+    /* Додатковий відступ між формою та кнопкою */
+}

@@ -10,7 +10,7 @@ export const MoviesList = ({ items }) => {
     <ul className={css.list}>
       {items.map(item => (
         <li key={item.id}>
-          <NavLink to={`/items/${item.id}`} state={location}>
+          <NavLink to={`/movies/${item.id}`} state={location}>
             <MovieItem item={item} />
           </NavLink>
         </li>
