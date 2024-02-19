@@ -27,6 +27,7 @@ export default function MoviesPage() {
   const searchMovies = async newQuery => {
     if (movieName === newQuery) {
       toast.error('Your query completed already');
+      return;
     }
     setPage(1);
     setMovies([]);
