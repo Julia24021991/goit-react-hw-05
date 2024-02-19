@@ -72,7 +72,7 @@ export default function MoviesPage() {
       {error && <ErrorMessage />}
       <SearchBar value={movieName} onSearch={searchMovies} />
       {loading && <Loader />}
-      {movies.length && <MoviesList items={movies} />}
+      {movies.length > 0 && <MoviesList items={movies} />}
       {movies.length > 0 && !loading && <LoadMoreBtn onClick={handleClick} />}
     </div>
   );

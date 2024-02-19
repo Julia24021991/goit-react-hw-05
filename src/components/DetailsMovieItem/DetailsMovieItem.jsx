@@ -23,7 +23,7 @@ export const DetailsMovieItem = ({
           height="360"
         />
         <div className={css.details}>
-          <p>Release Date: {release_date}</p>
+          <p>Release Date: {new Date(release_date).toLocaleDateString()}</p>
           <p>Budget: {budget}</p>
           <p>Average score: {vote_average}</p>
           <p>Overview: {overview}</p>
